@@ -1,7 +1,7 @@
 {
   "name": "@gitul/dbdough-mysql",
   "version": "1.0.0",
-  "description": "",
+  "description": "@gitul/dbdough MySQL/MariaDB Implementation",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
@@ -15,5 +15,8 @@
   "bugs": {
     "url": "https://github.com/gitulamy/dbdough-mysql/issues"
   },
-  "homepage": "https://github.com/gitulamy/dbdough-mysql#readme"
+  "homepage": "https://github.com/gitulamy/dbdough-mysql#readme",
+  "dependencies": {
+    "@gitul/dbdough": "git+https://github.com/gitulamy/dbdough.git#develop"
+  }
 }
